@@ -1,4 +1,4 @@
-# Comprehensive 5G Network Slicing & Knowledge Graph LoRA Fine-Tuning
+# Knowledge Graph-Enhanced LoRA Fine-Tuning for Intelligent 3GPP-Compliant 5G Network Slicing
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-ee4c2c.svg)](https://pytorch.org/)
@@ -10,6 +10,8 @@
 This repository demonstrates an end-to-end, highly optimized pipeline for **5G Network Slicing** recommendation systems using **Knowledge Graph (KG) integration** and **Large Language Model (LLM) fine-tuning**. 
 
 Specifically, this project utilizes **Parameter-Efficient Fine-Tuning (PEFT)** via **LoRA (Low-Rank Adaptation)** on the **Llama-3.2-1B-Instruct** model. By converting raw telecommunication tabular data (throughput, latency, reliability) into structured Knowledge Graph triples, we train an AI agent to act as a 5G network slicing expert that maps real-world parameters to 3GPP standards (e.g., TS 23.501) and recommends optimal network configurations.
+
+Designed by **Senthilkumar Vijayakumar** (IEEE Senior Member).
 
 ## 🚀 Key Features
 
@@ -53,3 +55,18 @@ export HF_TOKEN="your_hugging_face_token_here"
 
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
+
+## 📝 Citation
+
+If you utilize this framework or code in your research, please use the following citation:
+
+```bibtex
+@software{Vijayakumar_KG_LoRA_5G_2026,
+  author = {Vijayakumar, Senthilkumar},
+  title = {Knowledge Graph-Enhanced LoRA Fine-Tuning for Intelligent 3GPP-Compliant 5G Network Slicing},
+  year = {2026},
+  url = {https://github.com/senthilv83/LLM-FineTuning},
+  orcid = {0009-0009-6436-9003}
+}
+```
+*(See `CITATION.cff` for more details).*
